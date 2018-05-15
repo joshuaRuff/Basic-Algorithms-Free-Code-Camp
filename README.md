@@ -1,1 +1,1 @@
-# Reverse-a-String
+# Reverse-a-String This is a simple Javascript algorithm that reverses the inputed string. 
