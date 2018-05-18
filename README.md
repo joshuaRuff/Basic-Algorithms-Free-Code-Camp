@@ -1,1 +1,1 @@
-# Reverse-a-String This is a simple Javascript algorithm that reverses the inputed string. 
+# Free-Code-Camp - In this repository I will be uploading my solutions to every basic algorithm I solve on "freecodecamp.com". If you're just now finding my github I hope that these solutions will help you on your journey with algorithms. Note* all algorithms are solved using Javascript.
