@@ -1,0 +1,21 @@
+function chunkArrayInGroups(arr, size) {
+  let groupArray = [];
+  let times;
+
+  if(arr.length % size === 0) {
+    times = Math.floor(arr.length / size);
+  } else {
+    times = Math.floor(arr.length / size + 1);
+  }
+
+  for(let i = 0; i < times; i++) {
+    if(arr.length >= size) {
+      groupArray.push(arr.splice(0, size)); 
+    } else {
+      groupArray.push(arr.splice(0, arr.length));
+    }
+  }
+  return groupArray;
+}
+
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
